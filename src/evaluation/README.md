@@ -27,4 +27,4 @@ You can provide the directory in tester.py for the directory which contains all 
 3. This work is not properly documented. When I get more time, I will clean it and document it.
 
 ## Collaboration
-If you wish to add another NLP-metrics, you are welcome to fork, and I can mere your work, if it works successfully.
+If you wish to add another NLP-metrics, you are welcome to fork, and I can merge your work, if it works successfully.
