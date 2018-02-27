@@ -9,7 +9,8 @@ The MS MARCO dataset, which was released at NIPS 2016, can be downloaded from ht
 ```sh
 $ git rm --cached localFileName
 # add localFileName to .gitignore file 
-# then commit these changes
-# push these changes to your repo!
+
+$ CUDA_VISIBLE_DEVICES=0 python -u metrics.p
+# script to evaluate the model and obtain BLEU-1 and ROUGE-L metrics
 ```
 
