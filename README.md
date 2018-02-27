@@ -12,9 +12,6 @@ The metrics.py file reads in the trained weights of the network and completes on
 
 Please run python filename.py to run all the above files.
 ```sh
-$ git rm --cached localFileName
-# add localFileName to .gitignore file 
-
 $ CUDA_VISIBLE_DEVICES=0 python -u Data_preprocessing.py
 # script that reads a json file (train.json/dev.json or test.json) and produces 2 pickle files - samples.pkl and Vocab.pkl which will be required to run the encoder-decoder.py / attention.py
 
