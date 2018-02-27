@@ -10,7 +10,7 @@ MS Marco provides the train,dev and test datasets in the files train.json,dev.js
 
 The metrics.py file reads in the trained weights of the network and completes one pass on the entire train/test datasets to produce the average BLeu and Rogue-L scores.
 
-Please run python filename.py to run all the above files.
+Please run python filename.py to run all the above files (make sure to run in order provided below).
 ```sh
 $ CUDA_VISIBLE_DEVICES=0 python -u Data_preprocessing.py
 # script that reads a json file (train.json/dev.json or test.json) and produces 2 pickle files - samples.pkl and Vocab.pkl which will be required to run the encoder-decoder.py / attention.py
