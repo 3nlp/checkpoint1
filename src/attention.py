@@ -165,7 +165,7 @@ def train(passage_input_batches, passage_input_lengths,question_input_batches,qu
     print(output_words)
     
     loss = masked_cross_entropy(
-        all_decoder_outputs.transpose(0, 1).contiguous(),
+        Decoder_outputs.transpose(0, 1).contiguous(),
         target_batches.transpose(0, 1).contiguous(),
         target_lengths)
 
