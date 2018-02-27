@@ -18,4 +18,3 @@ $ git rm --cached localFileName
 $ CUDA_VISIBLE_DEVICES=0 python -u metrics.p
 # script to evaluate the model and obtain BLEU-1 and ROUGE-L metrics
 ```
-
