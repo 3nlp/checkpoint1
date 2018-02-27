@@ -13,13 +13,17 @@ The metrics.py file reads in the trained weights of the network and completes on
 Please run python filename.py to run all the above files (make sure to run in order provided below).
 ```sh
 $ CUDA_VISIBLE_DEVICES=0 python -u Data_preprocessing.py
-# script that reads a json file (train.json/dev.json or test.json) and produces 2 pickle files - samples.pkl and Vocab.pkl which will be required to run the encoder-decoder.py / attention.py
+# script that reads a json file (train.json/dev.json or test.json) and produces 
+# 2 pickle files - samples.pkl and Vocab.pkl which will be required to run the 
+# encoder-decoder.py / attention.py
 
 $ CUDA_VISIBLE_DEVICES=0 python -u encoder-decoder.py
-# script that takes in Vocabulary and samples files to train a basic encoder decoder architecture
+# script that takes in Vocabulary and samples files to train a basic encoder 
+# decoder architecture
 
 $ CUDA_VISIBLE_DEVICES=0 python -u attention.py
-# script that takes in Vocabulary and samples files to train an attention driven encoder decoder architecture
+# script that takes in Vocabulary and samples files to train an attention driven 
+# encoder decoder architecture
 
 $ CUDA_VISIBLE_DEVICES=0 python -u metrics.p
 # script to evaluate the model and obtain BLEU-1 and ROUGE-L metrics
